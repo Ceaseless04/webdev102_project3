@@ -58,9 +58,6 @@ const def_sample_card = [
 
 function App() {
 
-    const [correct_strk, setCorrect_strk] = useState(0);
-    const [long_str, setLong_strk] = usestate(0);
-
     return (
     <div>
         <h3>CS Concepts Review</h3>
