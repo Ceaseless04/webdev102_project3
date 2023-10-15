@@ -58,11 +58,15 @@ const def_sample_card = [
 
 function App() {
 
+  const [correct_strk, setCorrect_strk] = useState(0);
+  const [long_str, setLong_strk] = usestate(0);
+
   return (
     <div>
       <h3>CS Concepts Review</h3>
       <h4>Hey There!</h4>
       <h5>Here are 5 quick flashcards to test your coding concepts!</h5>
+	  <p>Current Streak: {}</p>
       <FlashCard flashcards={def_sample_card}/>
     </div>
   )
